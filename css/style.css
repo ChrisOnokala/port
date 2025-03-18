@@ -4311,7 +4311,19 @@ ul.shop-description li::before {
     background: url("../img/m10.jpg") no-repeat;
 }
 
-@media screen and (min-width: 1401px) {
+@media screen and (min-width: 1801px) {
+    .about-me-profile-pic {
+        margin-left: 30rem;
+    }
+}
+
+@media screen and (min-width: 1601px) and (max-width: 1800px) {
+    .about-me-profile-pic {
+        margin-left: 25rem;
+    }
+}
+
+@media screen and (min-width: 1401px) and (max-width: 1600px) {
     .about-me-profile-pic {
         margin-left: 20rem;
     }
