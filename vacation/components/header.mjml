@@ -1,0 +1,9 @@
+
+        <mj-section css-class="head-section" mj-class="head-section" >
+            <mj-column css-class="head-column" mj-class="head-column">
+                <mj-image css-class="head-image" mj-class="head-image" src="./assets/momondo-booking.png" alt="momondo header"
+                href="https://www.momondo.com/"/>
+            </mj-column>
+                
+          
+        </mj-section>

@@ -1,0 +1,606 @@
+<mjml>
+    <mj-head>
+    <mj-attributes>
+
+    <mj-class name="head-section" padding="0 0" background-color="#5d5d5d" />
+    <mj-class name="head-column" padding="0"  />
+    <mj-class name="head-image" padding="0" border-bottom="1px solid #572981"   />
+
+    <mj-class name="img-col-first"  padding="10px 0 " />
+    <mj-class name="img-section-first"  padding="0 0 10px " />
+    <mj-class name="img-text-title-first" text-decoration="underline" font-size="24px"  align="center" color="#000000" font-weight="900"/>
+    <mj-class name="img-text-header-first" font-size="18px" font-weight="bold"  align="center" color="#ffffff"/>
+    <mj-class name="img-text-body-first" font-size="16px" font-weight="bold"   align="center" color="#ffffff"/>
+    <mj-class name="img-text-code-first" font-size="12px" padding="0 0 20px 0"  align="center" color="#ffffff"/>
+    <mj-class name="img-text-price-first" font-size="30px" font-weight="bold"  align="center" color="#ffffff"/>
+    <mj-class name="img-btn-first" border-radius="5px" background-color="#222222" border="1px solid white" font-size="20px" align="center" padding="20px" />
+
+    <mj-class name="img-section"  padding="0 0 50px " />
+   <mj-class name="img-text-header" font-size="20px" font-weight="900"  align="center" color="#000000"/>
+    <mj-class name="img-text-image" padding="20px"/>
+    <mj-class name="img-text-body" font-size="16px"   align="center" color="#000000"/>
+     <mj-class name="img-text-code" font-size="14px" padding="0 0 20px 0"  align="center" color="#000000"/>
+    <mj-class name="img-text-price" font-size="30px" font-weight="bold"  align="center" color="#000000"/>
+    <mj-class name="img-btn" font-size="20px" border-radius="5px" border="1px solid white" align="center" padding="20px" />
+    
+    
+    <mj-class name="img-section-last"  padding="10px 20px 20px" />
+    
+    <mj-class name="download-section" border-bottom="1px solid #572981"  />
+    <mj-class name="android" border="1px solid white" border-radius="5px" align="right" padding="10px 5px" />
+    <mj-class name="apple" border="1px solid white" border-radius="5px" align="left" padding="10px 5px" />
+    <mj-class name="selections" border-bottom="1px solid #572981" padding="0" />
+    <mj-class name="selections-image"   padding="0" />
+    <mj-class name="socialmedia" border-bottom="1px solid #572981"  padding="0" />
+    <mj-class name="socialmedia-image"  padding="0" />
+    
+    <mj-class name="footer-section"  padding="20px 0 30px 0" />
+    
+<mj-class name="footer-group-btn"   width="150px" />
+<mj-class name="footer-column-btn"  background-color="#222222" padding="0 0 10px" />
+<mj-class name="footer-btn"  background-color="#22222" font-size="12px" padding="0" />
+<mj-class name="footer-text-btn"     />
+<mj-class name="footer-desc-text-para" padding="10px 20px" color="white" align="left"   />
+<mj-class name="copyright-footer-text" padding="10px 20px 0" color="white" align="left"   />
+
+
+
+    
+      
+    </mj-attributes>
+    
+    <mj-style >
+    .hover-btn a {
+        background-color: transparent !important; 
+    }
+    .hover-btn td:hover {
+        background-color: #0096FF !important;
+    }
+    
+.hover-btn-first a:hover {
+        color: #0096FF !important; 
+    }
+
+    .hover-btn-first td:hover {
+        border: 1px solid #0096FF !important
+    }
+
+    
+
+    .hover-btn-footer a:hover {
+color: #0096FF !important;
+    }
+
+    @media only screen and (max-width:480px) {
+        .app {
+        display: flex !important;
+        justify-content: center !important
+        }
+
+        .app-text {
+        display: flex !important;
+        justify-content: center !important
+        }
+    }
+
+    
+
+
+       
+    </mj-style>
+
+    </mj-head>
+    <mj-body background-color="#808080" css-class="body-main">
+        <mj-wrapper css-class="main-wrap" padding="0">
+            
+            
+               <mj-section mj-class="img-section" background-color="#ffffff">
+            <mj-column mj-class="img-col"  background-color="#ffffff" >
+            <mj-text mj-class="img-text-title-first"  >
+                    1. DocHipo
+                </mj-text>
+                <mj-image mj-class="img-text-image" height="400px" src="./assets/dochipo.webp" alt="" />
+                <mj-text mj-class="img-text-body">
+                    DocHipo is an excellent choice as banner-making software. 
+                    The intuitive interface of DocHipo makes it quick to learn 
+                    and use this tool for designing a wide variety of stunning 
+                    banners without any prior design experience.
+                     </mj-text>
+                     <mj-text mj-class="img-text-header">
+                    Step 1. Select a template
+                     </mj-text>
+                     <mj-text mj-class="img-text-body">
+                    The beautifully designed templates cover various industries and occasions and 
+                    are fully customizable. Get started by selecting a premade template or choosing 
+                    a blank template.
+                     </mj-text>
+                     <mj-text mj-class="img-text-header">
+                    Step 2. Customize the banner
+                     </mj-text>
+                     <mj-text mj-class="img-text-body">
+                   After you provide a name and description of your banner, 
+                   you’re all set to customize it. Choose from a massive library of design assets, 
+                   such as illustrations, animations, stickers, icons, etc., to make your banner design stand out.
+
+                   <br>
+                   <br>
+                    The good news is that all the graphic elements are vector-based, so they won’t lose their 
+                    quality when resized. You can add and edit text, leverage the stock photo library, or upload 
+                    your own. Also, the built-in photo-editing features help you enhance your banners further.
+
+                     </mj-text>
+                     <mj-text mj-class="img-text-header">
+                    Step 3. Download the banner
+                     </mj-text>
+                     <mj-text mj-class="img-text-body">
+                  A great benefit of using DocHipo is downloading your designs without any watermark, 
+                  even in the free version. Its free plan allows you to download designs only in JPG and PNG.
+                   But the pro plan supports multiple file formats such as JPG, PNG, PNG Transparent, 
+                   PDF, GIF, and MP4.
+                   <br>
+                   <br>
+                   DocHipo provides one-click image background removal, smart-resizing, real-time team 
+                   collaboration, and multi-company capability. It doesn’t take much time to master the 
+                   tool because of its intuitive interface.
+                   <br>
+                  
+                   <br>
+                   So, you may need to upgrade to the Pro plan to unlock the ability to create 
+                   unlimited designs, access to premium templates, and other advanced capabilities.
+                   <br>
+                   <br>
+                   If you’re looking for beginner-friendly banner-making software for creating 
+                   cool banner designs in minutes, DocHipo is your go-to software.
+                     </mj-text>
+                     <mj-button css-class="hover-btn" href="https://www.dochipo.com/" mj-class="img-btn">
+                    <mj-text  mj-class="img-btn-link">
+                        Try DocHipo Now
+                    </mj-text>
+                </mj-button>
+                
+                
+            </mj-column>
+        </mj-section>  
+          
+       
+
+        <mj-raw>
+            <!-- Top Section -->
+        </mj-raw>
+        
+
+         <mj-raw>
+            <!-- Next Section -->
+        </mj-raw>
+        <mj-section mj-class="img-section" background-color="#ffffff">
+            <mj-column mj-class="img-col"  background-color="#ffffff" >
+            <mj-text mj-class="img-text-title-first"  >
+                    2. Adobe Photoshop
+                </mj-text>
+                <mj-image mj-class="img-text-image" height="400px" src="./assets/adobe-photoshop.webp" alt="" />
+                
+                     <mj-text mj-class="img-text-body">
+                 Adobe Photoshop is another 
+                 go-to photo editing tool in the market.
+                   <br>
+                   <br>
+                   Not only can you edit stunning photos but apply 
+                   them to creating outstanding banner ads. With Photoshop, 
+                   you can even create 3D graphics.
+                   <br>
+                   <br>
+                  Some of the key features of Photoshop include:
+                   <br>
+                   <br>
+                   <span>&#8226;</span> Advanced Layers
+                    <br>
+                   <br>
+                   <span>&#8226;</span> Selection Tools
+                    <br>
+                   <br>
+                   <span>&#8226;</span> Pen Tool
+                    <br>
+                   <br>
+                   <span>&#8226;</span> Shapes
+                    <br>
+                   <br>
+                   <span>&#8226;</span> Vector Mask
+                    <br>
+                   <br>
+                   <span>&#8226;</span> Retouching Tools
+                    <br>
+                   <br>
+                   <span>&#8226;</span> 3D Photoshop
+                    <br>
+                   <br>
+                   <span>&#8226;</span> Smart Objects
+                    <br>
+                   <br>
+                   Using Photoshop can be funny with drawing pads. 
+                   Adobe Photoshop is known for its great drawing pad 
+                   support for more realistic design processes.
+                   <br>
+                   <br>
+                   The major drawback to Photoshop is that it takes a while to learn. 
+                   There are so many bells and whistles that it’s not possible to 
+                   master the tool in a day or two.
+                   <br>
+                   <br>
+                     </mj-text>
+                     <mj-button css-class="hover-btn" href="https://www.adobe.com/products/photoshop" mj-class="img-btn">
+                    <mj-text  mj-class="img-btn-link">
+                        Try Adobe Photoshop Now
+                    </mj-text>
+                </mj-button>
+                
+                
+            </mj-column>
+        </mj-section>
+
+        <mj-section mj-class="img-section" background-color="#ffffff">
+            <mj-column mj-class="img-col"  background-color="#ffffff" >
+            <mj-text mj-class="img-text-title-first"  >
+                    3. Adobe Illustrator
+                </mj-text>
+                <mj-image mj-class="img-text-image" height="400px" src="./assets/adobe-illustrator.webp" alt="" />
+                
+                     <mj-text mj-class="img-text-body">
+                 Adobe Illustrator is a well-rounded graphic 
+                 design tool for professional creators.
+                   <br>
+                   <br>
+                   You can do any type of graphic design 
+                   or image-making activities with Illustrator.
+                   <br>
+                   <br>
+                  If you are designing banner ads or ads in general, 
+                  you can find Adobe Illustrator to be of great use.
+                   <br>
+                   <br>
+                   Adobe Illustrator comes with amazing typography features. 
+                   There are loads of fonts to choose from to make your banners
+                    stand out.
+                    <br>
+                   <br>
+                   Illustrator allows for the creation of vector graphics. 
+                   This means graphics that can be scaled without loss of detail. 
+                   This makes it easy to design for different screen sizes and contexts.
+                   <br>
+                   <br>
+                   Also, you can experiment with a variety of colors and shapes, and save
+                   the graphic in a format ideal for you.
+                   <br>
+                   <br>
+                   The major drawback to Adobe Illustrator is the steep learning curve. 
+                   It takes a long time before you master the tool. If you are a more 
+                   serious creator working with graphics in the future, Adobe Illustrator
+                    is a must-have skill set.
+                    <br>
+                   <br>
+                   But if you are a beginner looking to create banners less frequently, 
+                   perhaps try some of the banner-focused tools later on in this list.
+                     </mj-text>
+                     <mj-button css-class="hover-btn" href="https://www.adobe.com/products/illustrator" mj-class="img-btn">
+                    <mj-text  mj-class="img-btn-link">
+                        Try Adobe Illustrator Now
+                    </mj-text>
+                </mj-button>
+                
+                
+            </mj-column>
+        </mj-section>
+
+       <mj-section mj-class="img-section" background-color="#ffffff">
+            <mj-column mj-class="img-col"  background-color="#ffffff" >
+            <mj-text mj-class="img-text-title-first"  >
+                    4. Placeit
+                </mj-text>
+                <mj-image mj-class="img-text-image" height="400px" src="./assets/placeit.webp" alt="" />
+                <mj-text mj-class="img-text-body">
+                    Placeit is another great template-based banner-creating software. 
+                    This tool makes a great alternative to Canva.
+                     </mj-text>
+                     <mj-text mj-class="img-text-body">
+                    Besides being able to create banners, you can create any type of 
+                    design and graphics for any type of business.
+                     </mj-text>
+                     <mj-text mj-class="img-text-body">
+                    Using the tool is seamless:
+                     </mj-text>
+                     <mj-text mj-class="img-text-header">
+                    Step 1. Select a template
+                     </mj-text>
+                     <mj-text mj-class="img-text-body">
+                    Select a template from the big library of templates. By the way, the number of 
+                    templates is big. There are more than 1,000 banner templates to choose from. 
+                    Needless to mention all the other templates there are for other designs than banners.
+                     </mj-text>
+                     <mj-text mj-class="img-text-header">
+                    Step 2. Customize the banner
+                     </mj-text>
+                     <mj-text mj-class="img-text-body">
+                This is super easy to do! There is a built-in drag-and-drop editor in Placeit. 
+                Without any experience, you can use this editor to create cool banner designs 
+                in minutes.
+                
+                     </mj-text>
+                     <mj-text mj-class="img-text-header">
+                    Step 3. Download the banners
+                     </mj-text>
+                     <mj-text mj-class="img-text-body">
+                 Placeit auto-generates your banners in multiple dimensions. 
+                 You can download all of them at once.
+                 </mj-text>
+                   <mj-text mj-class="img-text-body">
+                Unfortunately, there are no free downloads available. You have to either:
+                
+                     </mj-text>
+                     <mj-text mj-class="img-text-body">
+                  <span>&#8226;</span> Buy a single design.
+                
+                     </mj-text>
+                     <mj-text mj-class="img-text-body">
+                  <span>&#8226;</span> Subscribe to a monthly plan
+                
+                     </mj-text>
+                     <mj-text mj-class="img-text-body">
+                    As a downside, the platform might be clunky to use. Besides, 
+                    it has no collaboration features for teams to work on the same designs together.                
+                     </mj-text>
+                   
+                     <mj-button css-class="hover-btn" href="https://placeit.net/" mj-class="img-btn">
+                    <mj-text  mj-class="img-btn-link">
+                        Try Placeit Now
+                    </mj-text>
+                </mj-button>
+                
+                
+            </mj-column>
+        </mj-section>
+
+        <mj-section mj-class="img-section" background-color="#ffffff">
+            <mj-column mj-class="img-col"  background-color="#ffffff" >
+            <mj-text mj-class="img-text-title-first"  >
+                    5. Canva
+                </mj-text>
+                <mj-image mj-class="img-text-image" height="400px" src="./assets/canva.webp" alt="" />
+                
+                     <mj-text mj-class="img-text-body">
+                 Canva is a popular and modern graphic design software. 
+                 You can easily create click-worthy banner ads without having 
+                 experience in graphic design or ad creation.
+                   <br>
+                   <br>
+                   But what makes Canva stand out?
+                   <br>
+                   <br>
+                  Canva has a huge library of pre-built templates and assets that are ready to use! 
+                  You don’t need to have any experience in design to create something beautiful.
+                   <br>
+                   <br>
+                   In Canva, there is a template for pretty much anything you can imagine. 
+                   This includes ads and more specifically banner ads. With a couple of clicks, 
+                   you have a professional-looking banner at your disposal.
+                    <br>
+                   <br>
+                   There is a free version of Canva. Besides, there are some paid plans for more 
+                   extensive use. One cool feature of Canva is you can pay for a particular 
+                   template as well. So if you fall in love with one particular template, 
+                   you don’t have to spend money for a paid plan.
+                   <br>
+                   <br>
+                   As the icing on the cake, Canva makes it possible to animate any design. 
+                   Furthermore, you can export the animation as a GIF for free!
+                   <br>
+                   <br>
+                   Canva is easy to learn and thus a beginner-friendly banner-making software. 
+                   And remember, you can use Canva for much more than banners. 
+                   Banners are just a small subset of all of the versatile features.
+                    
+                    
+                     </mj-text>
+                     <mj-button css-class="hover-btn" href="https://www.canva.com/" mj-class="img-btn">
+                    <mj-text  mj-class="img-btn-link">
+                        Try Canva Now
+                    </mj-text>
+                </mj-button>
+                
+                
+            </mj-column>
+        </mj-section>
+
+
+        <mj-section mj-class="img-section" background-color="#ffffff">
+            <mj-column mj-class="img-col"  background-color="#ffffff" >
+            <mj-text mj-class="img-text-title-first"  >
+                    6. Abyssale
+                </mj-text>
+                <mj-image mj-class="img-text-image" height="400px" src="./assets/abyssale.webp" alt="" />
+                <mj-text mj-class="img-text-body">
+                    Abyssale is an easy-to-use banner creator. You can use this tool with little 
+                    to no experience in creating outstanding ads.
+                     </mj-text>
+                     <mj-text mj-class="img-text-body">
+                    The tool is unique because it uses the latest advancements in AI to 
+                    generate images and banners.
+                     </mj-text>
+                     <mj-text mj-class="img-text-body">
+                    Of course, even though it’s possible to auto-generate ads, you can fully customize them too.
+                     </mj-text>
+                     <mj-text mj-class="img-text-body">
+                     The workflow of Abyssale is easy and intuitive. To create a new banner ad:
+                     </mj-text>
+                     <mj-text mj-class="img-text-header">
+                   1. Choose a template
+                     </mj-text>
+                     <mj-text mj-class="img-text-header">
+                   2. Upload the text as an Excel sheet.
+                     </mj-text>
+                     <mj-text mj-class="img-text-header">
+                   3. Let the tool do the work.
+                     </mj-text>
+                     <mj-text mj-class="img-text-body">
+                 As a drawback to this tool, it has no good design capabilities. 
+                 The main function of this tool is to use AI to generate banners. 
+                 If you need more customizability or want to be more creative, 
+                 use a professional tool like Illustrator or Photoshop.
+                 </mj-text>
+                   <mj-text mj-class="img-text-body">
+                But the best part of this tool is it makes creating large ad campaigns a breeze. 
+                This is largely due to the great automation capabilities of the tool. With Abyssal, 
+                you can optimize your time and money spent on creating ads at scale.
+                
+                     </mj-text>
+                     
+                   
+                     <mj-button css-class="hover-btn" href="https://www.abyssale.com/" mj-class="img-btn">
+                    <mj-text  mj-class="img-btn-link">
+                        Try Abyssale Now
+                    </mj-text>
+                </mj-button>
+                
+                
+            </mj-column>
+        </mj-section>
+
+        <mj-section mj-class="img-section" background-color="#ffffff">
+            <mj-column mj-class="img-col"  background-color="#ffffff" >
+            <mj-text mj-class="img-text-title-first"  >
+                    7. Visme
+                </mj-text>
+                <mj-image mj-class="img-text-image" height="400px" src="./assets/visme.webp" alt="" />
+                <mj-text mj-class="img-text-body">
+                    Visme is an overall great 
+                    graphic design tool for your consideration..
+                     </mj-text>
+                     <mj-text mj-class="img-text-body">
+                    This tool has a variety of useful features. You can use these features 
+                    to generate amazing banners for your ad campaigns.
+                     </mj-text>
+                     <mj-text mj-class="img-text-body">
+                    The workflow of Visme is similar to Placeit:
+                     </mj-text>
+                     <mj-text mj-class="img-text-header">
+                    Step 1.Choose a template
+                     </mj-text>
+                     <mj-text mj-class="img-text-body">
+                    There are 250+ templates to choose from. 
+                    There are also some animated templates to consider. 
+                    As described later, banner blindness can be fixed with 
+                    non-conventional animated banners.
+                     </mj-text>
+                     <mj-text mj-class="img-text-header">
+                    Step 2. Customize the template
+                     </mj-text>
+                     <mj-text mj-class="img-text-body">
+                There is an easy-to-use editor which makes editing the banners a breeze. 
+                Add, replace, or remove elements until you’re good with the result. 
+                By the way, you can add cool charts and visual effects to further enhance your banners.
+                
+                     </mj-text>
+                     <mj-text mj-class="img-text-header">
+                    Step 3. Download the banners
+                     </mj-text>
+                     <mj-text mj-class="img-text-body">
+                 With a free version, you can only download JPG files with watermarks! 
+                 Thus, it makes sense to subscribe to a paid plan to get the most out of it.
+                 </mj-text>
+                   <mj-text mj-class="img-text-body">
+                Although there is a free version and download, you should also 
+                consider the paid plans. For example, one of the great benefits 
+                of the paid plan is the 2M+ free-to-use images and thousands 
+                of premium templates. Besides, there are other great graphical 
+                resources to choose from.
+                
+                     </mj-text>
+                    <mj-text mj-class="img-text-body">
+                One of the benefits of Visme is the easiness to use it. 
+                It has an overall great UI and cool banners with animated templates.
+                
+                     </mj-text>
+                     <mj-text mj-class="img-text-body">
+                The drawback to Visme is that the free version is very limited. 
+                It doesn’t give you a great picture of the tool. Furthermore, 
+                the paid plans are expensive as opposed to other similar tools. 
+                Also, the graphic library is smaller than other similar tools.
+                
+                     </mj-text>
+                   
+                     <mj-button css-class="hover-btn" href="https://www.visme.co/" mj-class="img-btn">
+                    <mj-text  mj-class="img-btn-link">
+                        Try Visme Now
+                    </mj-text>
+                </mj-button>
+                
+                
+            </mj-column>
+        </mj-section>
+
+         <mj-section mj-class="img-section" background-color="#ffffff">
+            <mj-column mj-class="img-col"  background-color="#ffffff" >
+            <mj-text mj-class="img-text-title-first"  >
+                    8. Bannerbear
+                </mj-text>
+                <mj-image mj-class="img-text-image" height="400px" src="./assets/bannerbear.webp" alt="" />
+                
+                     <mj-text mj-class="img-text-body">
+                 Bannerbear is a banner-focused tool to create outstanding banners. 
+                 Its specialty is the image creation API which helps you auto-generate banners that:
+                   <br>
+                   <br>
+                   <span>&#8226;</span> Contains videos
+                   
+                   <br>
+                   <br>
+                   <span>&#8226;</span> Has animated GIFs
+                   
+                   <br>
+                   <br>
+                   <span>&#8226;</span> Are overall engaging and outstanding
+                   
+                   <br>
+                   <br>
+                  There are loads of built-in assets and graphics for 
+                  your marketing campaigns as well. So you won’t 
+                  have to start empty-handed.
+                   <br>
+                   <br>
+                   Usability is the main concern here. I mean, the tool is powerful, 
+                   but it takes a while to learn how to use it. 
+                   If you have no technical background, an API makes 
+                   absolutely no sense to you. Due to the technical complexity, 
+                   most users cannot make the most of the tool.
+                   <br>
+                   <br>
+                    On the other hand, if you are someone with coding knowledge, 
+                    integrating the API can offer superpowers to your graphic design tools.
+                   <br>
+                   <br>
+                   If you are looking for easier solutions, feel free to 
+                   take a look at the last two banner creation software. 
+                   Also, feel free to scroll back. There are lots of great 
+                   tools without technical prerequisites.
+                   
+                     </mj-text>
+                     <mj-button css-class="hover-btn" href="https://www.bannerbear.com/" mj-class="img-btn">
+                    <mj-text  mj-class="img-btn-link">
+                        Try Bannerbear Now
+                    </mj-text>
+                </mj-button>
+                
+                
+            </mj-column>
+        </mj-section>
+
+        <mj-raw>
+            <!-- Next Section -->
+        </mj-raw>
+        
+                
+            <!-- </mj-column> -->
+             
+       
+
+        </mj-wrapper>
+    </mj-body>
+</mjml>

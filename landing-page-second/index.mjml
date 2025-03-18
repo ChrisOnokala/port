@@ -1,0 +1,220 @@
+<mjml>
+    <mj-head>
+        <mj-attributes>
+            
+         <mj-class name="main-image" vertical-align="middle" />
+
+         <mj-class name="social-hover"     color="black"  />
+   <mj-class name="social-div"  align="left"     />
+   <mj-class name="wrapper-div"    background-color="#f2f0ef"   />
+   <mj-class name="button-nav"     color="white" align="center" />
+         <!-- <mj-class name="social-div1" border="1px solid white" color="pink"   /> -->
+        </mj-attributes>
+        <mj-style>
+            .hover-btn td:hover {
+        background-color:green !important;
+        
+    }
+    
+.hover-btn a:hover {
+        background-color: transparent !important; 
+        color: #f4d35e !important;
+    }
+
+.fb-btn a:hover {
+ background-color: transparent !important; 
+        color: #f4d35e !important;
+}
+.fb-btn td:hover {
+        background-color:green !important;
+        
+    }
+
+
+
+.social-hover {
+    display: flex;
+    flex-direction: row;
+gap: 1rem;
+cursor: pointer;
+
+}
+
+
+.social-hover :hover {
+        cursor: pointer;
+}
+
+.social-div {
+    background-color: #e5e5e5;
+    background: white;
+    font-weight:bold; 
+    box-shadow: 0 5px 10px rgb(0 0 0 / 0.2);
+cursor: pointer;
+    
+}
+
+.column2  {
+padding-right: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+
+        .column2 {
+            padding: 20px;
+            width: 15rem !important;
+        }
+
+
+      }
+
+.social-div :hover {
+    
+        cursor: pointer;
+}
+
+.social-div:active {
+  background: #e5e5e5;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+     -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
+   outline: none;
+}
+
+
+
+
+.button-nav a {
+ background-color: #e5e5e5 !important;
+    background: white !important;
+    font-weight:bold !important; 
+    box-shadow: 0 5px 10px rgb(0 0 0 / 0.2) !important;
+cursor: pointer !important;
+color: black !important;
+
+}
+
+.button-next a {
+ background-color: #e5e5e5 !important;
+    background: white !important;
+    font-weight:bold !important; 
+    box-shadow: 0 5px 10px rgb(0 0 0 / 0.2) !important;
+cursor: pointer !important;
+color: black !important;
+width: 8rem;
+
+}
+
+        </mj-style>
+</mj-head>
+    
+<mj-body mj-class="body-div" >
+        <mj-wrapper mj-class="wrapper-div" css-class="wrapper-div" >
+            
+            <mj-section mj-class="section-div"   >
+   
+    <mj-column mj-class="column1" css-class="column1" width="50%" vertical-align="middle"   >
+            <mj-image border-radius="10%" src="./assets/pexels1.jpg"  
+            padding-bottom="0" height="400px" />
+        </mj-column>
+
+       
+
+        <mj-column mj-class="column2" css-class="column2"  vertical-align="middle"  width="45%"  >
+
+     
+
+<mj-social   mj-class="social-div" css-class="social-div" >
+    <mj-social-element  mj-class="social-hover" css-class="social-hover"   href="https://facebook.com/" src="./assets/fb.png">
+       <mj-text  mj-class="social-word" css-class="social-word" >
+        Continue with Facebook 
+       </mj-text>
+    </mj-social-element>
+</mj-social>
+
+<mj-spacer height="10px" />
+
+
+<mj-social   mj-class="social-div" css-class="social-div" >
+    <mj-social-element  mj-class="social-hover" css-class="social-hover" href="https://youtube.com/"   src="./assets/yt.png">
+       <mj-text mj-class="social-word" css-class="social-word" >
+        Continue with Youtube 
+       </mj-text>
+    </mj-social-element>
+</mj-social>
+
+<mj-spacer height="10px" />
+
+
+<mj-social   mj-class="social-div" css-class="social-div" >
+    <mj-social-element  mj-class="social-hover" css-class="social-hover"   href="https://instagram.com" src="./assets/insta.png">
+       <mj-text mj-class="social-word" css-class="social-word" >
+        Continue with Instagram
+       </mj-text>
+    </mj-social-element>
+</mj-social> 
+
+<mj-spacer height="10px" />
+
+
+<mj-text align="center" color="gray">
+    OR
+</mj-text>
+
+<mj-text align="center" font-weight="bold">
+   Continue with Email
+</mj-text>     
+
+            
+<mj-button href="https://gmail.com"  css-class="button-next" mj-class="button-next"    font-weight="bold">
+    Next
+</mj-button>
+
+            
+    <mj-text>
+        Personal information will be used for account and related communications 
+<span>
+<a href="https://google.com/" style="color:blue;  font-weight:bold; text-decoration:none">Privacy Policy</a>
+            
+            </span>
+             for more info.
+            
+    </mj-text>        
+            
+     <mj-text>
+        *By continuing this registration, you're agreeing to our 
+        <span href="https://gmail.com" style="color:blue;  font-weight:bold; ">
+        <a href="https://google.com/" style="color:blue;  font-weight:bold; text-decoration:none">            
+        Terms & Conditions
+                </a>
+                </span>
+                .
+    </mj-text>       
+                
+                   
+                
+
+                  
+            
+        </mj-column>
+   
+    
+   
+        
+
+
+      
+        
+
+            
+    
+
+        
+       
+        
+        
+    </mj-section>
+
+        </mj-wrapper>
+    </mj-body>
+</mjml>

@@ -1,0 +1,188 @@
+<mjml>
+    <mj-head>
+    <mj-attributes>
+
+    <mj-class name="head-section" padding="0 0" background-color="#5d5d5d" />
+    <mj-class name="head-column" padding="0"  />
+    <mj-class name="head-image" padding="0" border-bottom="1px solid #572981"   />
+
+    <mj-class name="img-col-first"  padding="10px 0 " />
+    <mj-class name="img-section-first"  padding="0 0 10px " />
+    <mj-class name="img-text-title-first" font-size="58px"  align="center" color="#ffffff" font-weight="bold"/>
+    <mj-class name="img-text-header-first" font-size="18px" font-weight="bold"  align="center" color="#ffffff"/>
+    <mj-class name="img-text-body-first" font-size="16px" font-weight="bold"   align="center" color="#ffffff"/>
+    <mj-class name="img-text-code-first" font-size="12px" padding="0 0 20px 0"  align="center" color="#ffffff"/>
+    <mj-class name="img-text-price-first" font-size="30px" font-weight="bold"  align="center" color="#ffffff"/>
+    <mj-class name="img-btn-first" border-radius="5px" background-color="#222222" border="1px solid white" font-size="20px" align="center" padding="20px" />
+
+    <mj-class name="img-section"  padding="10px 20px " />
+   <mj-class name="img-text-header" font-size="20px" font-weight="900"  align="center" color="#000000"/>
+    <mj-class name="img-text-image" padding="20px"/>
+    <mj-class name="img-text-body" font-size="18px"   align="center" color="#000000"/>
+     <mj-class name="img-text-code" font-size="14px" padding="0 0 20px 0"  align="center" color="#000000"/>
+    <mj-class name="img-text-price" font-size="30px" font-weight="bold"  align="center" color="#000000"/>
+    <mj-class name="img-btn" font-size="20px" border-radius="5px" border="1px solid white" align="center" padding="20px" />
+    
+    
+    <mj-class name="img-section-last"  padding="20px 20px" />
+    
+    <mj-class name="download-section" border-bottom="1px solid #572981"  />
+    <mj-class name="android" border="1px solid white" border-radius="5px" align="right" padding="10px 5px" />
+    <mj-class name="apple" border="1px solid white" border-radius="5px" align="left" padding="10px 5px" />
+    <mj-class name="selections" border-bottom="1px solid #572981" padding="0" />
+    <mj-class name="selections-image"   padding="0" />
+    <mj-class name="socialmedia" border-bottom="1px solid #572981"  padding="0" />
+    <mj-class name="socialmedia-image"  padding="0" />
+    
+    <mj-class name="footer-section"  padding="20px 0 30px 0" />
+    
+<mj-class name="footer-group-btn"   width="150px" />
+<mj-class name="footer-column-btn"  background-color="#222222" padding="0 0 10px" />
+<mj-class name="footer-btn"  background-color="#22222" font-size="12px" padding="0" />
+<mj-class name="footer-text-btn"     />
+<mj-class name="footer-desc-text-para" padding="10px 20px" color="white" align="left"   />
+<mj-class name="copyright-footer-text" padding="10px 20px 0" color="white" align="left"   />
+
+
+
+    
+      
+    </mj-attributes>
+    
+    <mj-style >
+    .hover-btn a {
+        background-color: transparent !important; 
+    }
+    .hover-btn td:hover {
+        background-color: #0096FF !important;
+    }
+    
+.hover-btn-first a:hover {
+        color: #0096FF !important; 
+    }
+
+    .hover-btn-first td:hover {
+        border: 1px solid #0096FF !important
+    }
+
+    
+
+    .hover-btn-footer a:hover {
+color: #0096FF !important;
+    }
+
+    @media only screen and (max-width:480px) {
+        .app {
+        display: flex !important;
+        justify-content: center !important
+        }
+
+        .app-text {
+        display: flex !important;
+        justify-content: center !important
+        }
+    }
+
+    
+
+
+       
+    </mj-style>
+
+    </mj-head>
+    <mj-body background-color="#808080" css-class="body-main">
+        <mj-wrapper css-class="main-wrap" padding="0">
+            
+            
+                
+          
+       
+
+       
+        <mj-section mj-class="img-section-last" background-color="#222222"  >
+            <mj-column mj-class="img-col"  background-color="#cbcaca"  >
+                <mj-image mj-class="img-text-image"  src="./assets/bestbuy-receipt-no-bg.jpg" alt="" />
+                <mj-button  css-class="hover-btn" href="https://www.bestbuy.com" mj-class="img-btn">
+                    <mj-text   mj-class="img-btn-link">
+                        Check Order
+                    </mj-text>
+                </mj-button>
+                
+                
+                
+            </mj-column>
+        </mj-section>
+
+       
+       <mj-section mj-class="footer-section" background-color="#222222" >
+       
+            <mj-group mj-class="footer-group-btn" >
+                <mj-column mj-class="footer-column-btn" >
+                    <mj-button css-class="hover-btn-footer" href="https://www.bestbuy.com" mj-class="footer-btn" >
+                        <mj-text  mj-class="footer-text-btn" >
+                        Privacy Policy
+                        </mj-text>
+                    </mj-button>
+                </mj-column>
+            </mj-group>
+
+            <mj-group mj-class="footer-group-btn" >
+                <mj-column mj-class="footer-column-btn">
+                    <mj-button css-class="hover-btn-footer" href="https://www.bestbuy.com" mj-class="footer-btn">
+                        <mj-text mj-class="footer-text-btn">
+                        Email Preferences 
+                        </mj-text>
+                    </mj-button>
+                </mj-column>
+            </mj-group>
+
+            <mj-group mj-class="footer-group-btn" >
+                <mj-column mj-class="footer-column-btn">
+                    <mj-button css-class="hover-btn-footer" href="https://www.bestbuy.com" mj-class="footer-btn">
+                        <mj-text mj-class="footer-text-btn">
+                        Feedback
+                        </mj-text>
+                    </mj-button>
+                </mj-column>
+            </mj-group>
+
+            <mj-group mj-class="footer-group-btn" >
+                <mj-column mj-class="footer-column-btn">
+                    <mj-button css-class="hover-btn-footer" href="https://www.bestbuy.com" mj-class="footer-btn">
+                        <mj-text mj-class="footer-text-btn">
+                        Unsubscribe
+                        </mj-text>
+                    </mj-button>
+                </mj-column>
+            </mj-group>
+
+            
+                <mj-column mj-class="footer-desc-text" width="600px" >
+                     <mj-text mj-class="footer-desc-text-para"  >
+                    
+                    Your privacy is important to Best Buy. For more information on how Best Buy protects your privacy, 
+                    steps you can take to protect your personal information and alerts 
+                    on privacy risks facing consumers, please visit the Best Buy Privacy Hub.
+                </mj-text>
+                </mj-column>
+               
+
+               <mj-column mj-class="copyright-footer-" width="600px" >
+                <mj-text mj-class="copyright-footer-text"  >
+                    @ 2025 Best Buy. All Rights Reserved
+                    <br> <br>
+                    Best Buy 7601 Penn Avenue South, Richfield, MN 55423-3645
+
+                   
+                </mj-text>
+               </mj-column>
+                
+                
+                
+            <!-- </mj-column> -->
+             
+        </mj-section>
+
+        </mj-wrapper>
+    </mj-body>
+</mjml>

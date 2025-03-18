@@ -1,0 +1,146 @@
+   <mjml>
+   <mj-head>
+    <mj-attributes>
+        <mj-class name="info-desc" font-size="20px"  />
+        <mj-class name="img-btn" font-size="20px" border-radius="50px" 
+        border="1px solid white" align="center" color="black" background-color="#f05656"
+         />
+         <mj-class name="main-image" vertical-align="middle" />
+    
+    </mj-attributes>
+
+    <mj-style>
+       
+        
+
+    .hover-btn td:hover {
+        background-color:green !important;
+        
+    }
+    
+.hover-btn a:hover {
+        background-color: transparent !important; 
+        color: #f4d35e !important;
+    }
+       
+
+        
+    
+    </mj-style>
+    
+   </mj-head>
+
+    <mj-body>
+        <mj-wrapper>
+            
+ <mj-section background-color="#7ca1cc" padding-bottom="0">
+        <mj-column padding="0">
+            <mj-text align="center" font-size="40px" 
+             font-weight="bold"
+            >
+            <span style="color:#f4d35e;">
+            TechUniversal 
+            </span>
+                Presents
+            </mj-text>
+
+            <mj-text align="center" font-size="30px" 
+             font-weight="normal"
+            >
+                2024 Year End Expo
+            </mj-text>
+        </mj-column>
+    </mj-section>
+   
+   
+   
+   <mj-section background-color="#7ca1cc">
+   
+    <mj-column vertical-align="middle"  width="50%" >
+            <mj-image border-radius="10%" src="./assets/tech1.jpg"  
+            padding-bottom="0" height="500px" />
+        </mj-column>
+   
+        
+
+
+       
+            <mj-column vertical-align="middle"  width="50%" >
+
+            <mj-text mj-class="info-desc">
+            Have a chance to be part of the largest tech event in 2024!
+            </mj-text>
+
+            <mj-text mj-class="info-desc"   font-weight="normal" padding-bottom="20px"
+            line-height="20px">
+            <span style="color:#f4d35e; font-size:20px; font-weight:bold">
+            Are you ready for TechUniversal 2024?
+            </span>
+                The biggest cluster of technology related news, products, and trends
+                returns for another year.
+            </mj-text>
+
+
+            <mj-text  mj-class="info-desc">
+            This 
+            <span style="color:#f4d35e; font-size:20px; font-weight:bold">
+            ONCE PER YEAR
+            </span>
+            in-person event cannot be missed! Everything from 
+            <span style="color:#f4d35e; font-size:20px; font-weight:bold">
+            cutting-edge technology
+            </span>
+            to leaders in the industry.
+            </mj-text>
+            
+            
+          <mj-table padding="0 10px" >
+          <tr>
+          <td style="width:30%; padding:5px;">
+          <img src="./assets/voucher.png" width="90%">
+          </img>
+         </td>
+          <td style="width:70%;padding:0px; " >
+          <h1  style=" font-size:14px; ">
+                Your 
+          <span style="color:#f4d35e; font-size:20px; font-weight:bold">
+          free ticket
+          </span>
+          will be available after clicking the button
+          </h1>
+          
+         </td>
+
+          
+          
+           </tr>
+
+           
+          </mj-table>
+                
+                   
+                <mj-button css-class="hover-btn" font-weight="bold"  padding="5px 10px 0 " href="https://www.google.com/" mj-class="img-btn" width="100%">
+                    <mj-text  >
+                    CLAIM YOUR FREE TICKET NOW 
+                    </mj-text>
+                  </mj-button> 
+
+                  
+            
+        </mj-column>
+    
+
+        
+       
+        
+        
+    </mj-section>
+    
+
+
+        </mj-wrapper>
+    </mj-body>
+   </mjml>
+   
+   
+  
