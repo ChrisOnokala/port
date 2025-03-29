@@ -237,8 +237,8 @@ jQuery(function ($) {
             loop: true
         });
         personal.typeString('Email Developer').pauseFor(1500).deleteAll()
-            .typeString('Ecommerce').pauseFor(1500).deleteAll()
-            .typeString('Front-End').pauseFor(1500).start();
+            .typeString('Marketing').pauseFor(1500).deleteAll()
+            .typeString('Ecommerce').pauseFor(1500).start();
     }
 
 
