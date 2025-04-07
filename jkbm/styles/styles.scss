@@ -1,0 +1,76 @@
+@use "./reset";
+@use "./bootstrap/scss/bootstrap.scss";
+
+
+:root {
+  --white: #fff;
+  --black: #000;
+  --light: var(--gray-100);
+  --dark: var(--gray-900);
+  --gray-100: #f8f9fa;
+  --gray-200: #e9ecef;
+  --gray-300: #dee2e6;
+  --gray-400: #ced4da;
+  --gray-500: #adb5bd;
+  --gray-600: #6c757d;
+  --gray-700: #495057;
+  --gray-800: #343a40;
+  --gray-900: #212529;
+  --blue: #0d6efd;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #d63384;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #198754;
+  --teal: #20c997;
+  --cyan: #0dcaf0;
+  --brown: #a35e35;
+  --silver: #b1b8ba;
+  --nude: #e5d2c4;
+  --ivory: ivory;
+  --navy: #000080;
+  --khaki: #f0e68c;
+  --announce-bar-default: #605e7d;
+}
+
+body {
+  background-color: var(--light);
+  scrollbar-gutter: stable both-edges;
+  padding-top: 45px;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+}
+
+a:link {
+  outline: none;
+  text-decoration: none;
+}
+
+a:visited {
+  outline: none;
+  text-decoration: none;
+}
+
+a:focus {
+  outline: none;
+  text-decoration: none;
+}
+
+a:hover {
+  outline: none;
+  text-decoration: none;
+  color: var(--red);
+}
+
+a:active {
+  outline: none;
+  text-decoration: none;
+  color: black;
+}
