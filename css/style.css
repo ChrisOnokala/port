@@ -4449,8 +4449,9 @@ ul.shop-description li::before {
 
 @media screen and (min-width: 768px) {
     #feat-content{
-        padding-left: 17px;
+        padding-left: 27px;
     }
+    
 }
 
 

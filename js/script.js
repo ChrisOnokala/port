@@ -236,8 +236,8 @@ jQuery(function ($) {
         var personal = new Typewriter(app, {
             loop: true
         });
-        personal.typeString('Email Developer').pauseFor(1500).deleteAll()
-            .typeString('Marketing').pauseFor(1500).deleteAll()
+        personal.typeString('Email Marketing').pauseFor(1500).deleteAll()
+            .typeString('Web Developer').pauseFor(1500).deleteAll()
             .typeString('Ecommerce').pauseFor(1500).start();
     }
 
